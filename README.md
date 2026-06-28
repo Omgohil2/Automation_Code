@@ -1,17 +1,17 @@
-A collection of production-ready Python scripts built to automate tedious financial, accounting, and daily administrative workflows. This repository serves as a centralized hub for enterprise automation, focusing on data processing, document generation, and communication systems.
+A collection of production-ready Python applications engineered to eliminate tedious financial workflows, manual documentation, and administrative overhead. This repository serves as a centralized workstation for scaling enterprise automation.
 
 ---
 
 ## 📂 Repository Structure
 
+The code in this repository is strictly organized into independent, modular sub-systems:
 
+```text
 Automation_Code/
-├── Invoice_Generator/
-│   ├── invoice_data.xlsx
-│   ├── invoice_generator.py
-│   └── Final_Invoice.pdf
-├── WhatsApp_Reminder/
-│   ├── due_payments.xlsx
-│   ├── whatsapp_automator.py
-│   └── README.md
-└── README.md   <-- (This is the main portfolio README we just made)
+├── Invoice_Generator/      # Module 1: PDF Document Generation System
+│   ├── invoice_data.xlsx   # Client transaction databases
+│   └── invoice_generator.py # Core generation pipeline
+├── WhatsApp_Reminder/      # Module 2: Automated Accounts Receivable Routing
+│   ├── due_payments.xlsx   # Outstanding balance logs
+│   └── whatsapp_automator.py# Browser automation script
+└── README.md               # Main Portfolio Architecture Directory (This File)
