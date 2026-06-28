@@ -5,12 +5,13 @@ A collection of production-ready Python scripts built to automate tedious financ
 ## 📂 Repository Structure
 
 
-Invoice_Project/  (Root)
-├── Invoice_Generator/    # Project 1: Automated PDF PDF Invoice Issuer
-│   ├── generator.py
-│   └── README.md
-├── WhatsApp_Reminder/    # Project 2: Auto WhatsApp Client Follow-ups
-│   ├── whatsapp_automator.py
+Automation_Code/
+├── Invoice_Generator/
+│   ├── invoice_data.xlsx
+│   ├── invoice_generator.py
+│   └── Final_Invoice.pdf
+├── WhatsApp_Reminder/
 │   ├── due_payments.xlsx
+│   ├── whatsapp_automator.py
 │   └── README.md
-└── README.md             # Main Portfolio Directory (This File)
+└── README.md   <-- (This is the main portfolio README we just made)
